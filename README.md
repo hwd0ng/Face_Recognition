@@ -55,20 +55,25 @@ model.train(
 )
 ```
 ### 4. 사용 방법 (Pycharm으로 진행)
-- pip install -r requirements.txt
-- (팀과제)얼굴인식GUI.py 실행 후 화면 (이름 입력 창이 보이지 않지만 입력을 한 후 '얼굴 등록' 클릭, 예시에서는 'Jubin'으로 입력)
+#### 1) pip install -r requirements.txt (필요 라이브러리 설치)
+#### 2) (팀과제)얼굴인식GUI.py 실행 후 등록시킬 이름 입력 <br></br>(현재 이름 입력 창이 보이지 않는 오류가 있음. 그래도 입력을 한 후 '얼굴 등록' 클릭, 예시에서는 'Jubin'으로 입력)
 <img width="284" alt="image" src="https://github.com/user-attachments/assets/e9c474e1-b3c6-4b69-b469-241c43012b17">
 
-- '얼굴 등록' 클릭 후 등록할 얼굴 이미지 선택
+#### 3) '얼굴 등록' 클릭 후 등록할 얼굴 이미지 선택
 <img width="209" alt="image" src="https://github.com/user-attachments/assets/fb03f4f7-db1b-4198-aacb-023fa541fc02">
+<br></br>
 
-- 연예인 '이주빈'씨의 얼굴 사진 선택 (입력한 이름으로 등록 확인)
+#### 4) 연예인 '이주빈'씨의 얼굴 사진 선택 (입력한 이름으로 등록 확인)
 <img width="372" alt="image" src="https://github.com/user-attachments/assets/5fb7e5ca-3bf4-4343-8ad0-2f4953a8feb6">
 
-- '얼굴 인식' 클릭 시 웹캠이 열림 (파란 원 안에 얼굴이 들어오도록 유도)
+#### 5) 얼굴 등록시 registered_face 폴더 > face_encodings.json 파일에 해당 얼굴 이미지에 대한 인코딩된 결과로 저장됨
+<img width="291" alt="image" src="https://github.com/user-attachments/assets/dd1a2f41-06aa-4c1c-9ad4-23531f4b1147">
+<br></br>
+
+#### 6) '얼굴 인식' 클릭 시 웹캠이 열림 (파란 원 안에 얼굴이 들어오도록 유도)
 <img width="1083" alt="image" src="https://github.com/user-attachments/assets/5a202eb5-4a19-44c8-862d-d97d203b6154">
 
-- 파란 원 안에 등록된 얼굴이 10프레임 동안 있다면 출입 허용 메시지와 함께 초록색 알림으로 변경
+#### 7) 파란 원 안에 등록된 얼굴이 10프레임 동안 있다면 출입 허용 메시지와 함께 초록색 알림으로 변경
 <img width="1083" alt="image" src="https://github.com/user-attachments/assets/86bb37da-cc95-479b-9ab5-239702f3e18e">
 
 
